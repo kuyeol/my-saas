@@ -18,6 +18,11 @@ export default defineNuxtConfig({
       globals.forEach((c) => c.global = true)
     }
   },
+  nitro: {
+    experimental: {
+      database: true
+    }
+  },
   ui: {
     icons: ['heroicons', 'simple-icons']
   },
